@@ -47,7 +47,8 @@
       <activity android:name="com.google.zxing.client.android.encode.EncodeActivity" android:label="Share"/>
     </config-file>
     <config-file target="AndroidManifest.xml" parent="/manifest">
-      <uses-permission android:name="android.permission.CAMERA"/>
+        <!--<uses-permission android:name="android.permission.CAMERA"/>-->
+      
       <uses-permission android:name="android.permission.FLASHLIGHT"/>
       <uses-feature android:name="android.hardware.camera" android:required="true"/>
     </config-file>
